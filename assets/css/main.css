@@ -1,0 +1,69 @@
+html {
+    font-family: "Calibri", "Trebuchet MS", "Helvetica", sans-serif;
+    background-image: url("../images/sparkly-glitter-background-in-bright-colors-great-party-background-texture_bfrodnkpg_thumbnail-full01.png");
+  }
+  
+  .white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 25px;
+    width: auto;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .mfp-newspaper .mfp-with-anim {
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.5s;
+    transform: scale(0) rotate(500deg);
+  }
+  .mfp-newspaper.mfp-bg {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .mfp-newspaper.mfp-ready .mfp-with-anim {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  .mfp-newspaper.mfp-ready.mfp-bg {
+    opacity: 0.8;
+  }
+  .mfp-newspaper.mfp-removing .mfp-with-anim {
+    transform: scale(0) rotate(500deg);
+    opacity: 0;
+  }
+  .mfp-newspaper.mfp-removing.mfp-bg {
+    opacity: 0;
+  }
+
+  .container{
+      max-width: 960px;
+      margin: 30px auto;
+      background-color: #F3F3F3;
+      text-align: center;
+      min-height: 90vh;
+  }
+
+  .start{
+      padding: 5px;
+      margin-top: 30vh;
+      border-radius: 3px;
+  }
+
+  .done{
+      padding: 5px;
+      margin: 30px;
+      border-radius: 3px;
+  }
+
+  button:hover{
+    border: 2px black solid;
+  }
